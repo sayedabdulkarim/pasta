@@ -1,0 +1,81 @@
+.Drinkmenu {
+  /* border: 1px solid red; */
+  padding: 80px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.Drinkmenu h1{
+  font-size: 2rem;
+  /* padding-top: 100px; */
+  font-family: 'Caveat Brush', cursive;
+}
+
+.Drinkmenu .Option{
+  /* color: red;
+  text-decoration: none; */
+}
+
+.Drinkmenu .Option a{
+    display: inline-block;
+    margin: 10px 5px;
+    font-weight: bold;
+    background: #FF7252;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 12px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.Drinkmenu .Option a:hover{
+  color: #FF7252;
+  background-color: transparent;
+  border-color: #FF7252;
+}
+
+/* ///////////// images */
+@media(max-width: 768px){
+  
+  .Drinkmenu {
+    /* border: 1px solid red; */
+    /* padding: 80px; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    /* color: white; */
+    /* width: 100%; */
+    /* text-align: center; */
+  }
+  
+  .Drinkmenu h1{
+    font-size: 1rem;
+    /* padding-top: 100px; */
+    /* font-family: 'Caveat Brush', cursive; */
+  }
+  
+  .Drinkmenu .Option{
+    /* color: red;
+    text-decoration: none; */
+  }
+  
+  .Drinkmenu .Option a{
+      /* display: inline-block; */
+      /* margin: 10px 5px; */
+      /* font-weight: bold; */
+      /* background: #FF7252; */
+      /* border: 2px solid white; */
+      /* color: white; */
+      padding: 5px 7px;
+      font-size: 0.5rem;
+      /* text-decoration: none; */
+  }
+  .Drinkmenu .Option a:hover{
+    /* color: #FF7252; */
+    /* background-color: transparent; */
+    /* border-color: #FF7252; */
+  }
+}

@@ -1,0 +1,89 @@
+.Alldrinks{
+  /* border: 1px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+@media(max-width: 768px){
+  .Alldrinks{
+    width: 90%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: 100px auto; */
+  } 
+}
+/* ///////////////////////////// */
+.Alldrinksleft{
+  /* border: 1px solid green; */
+  width: 20%;
+  height: 500px;
+  position: sticky;
+  top: 85px;
+}
+.Alldrinksleft ul{
+  list-style: none;
+}
+.Alldrinksleft ul li{
+  margin: 10px 0;
+}
+.Alldrinksleft ul li a{
+  border: 2px dotted white;
+  text-decoration: none;
+  color: white;
+  background: #FF6846;
+  font-size: 1rem;
+  text-align: center;
+  padding: 16px 10px;
+  display: block;
+  font-weight: bold;
+}
+.Alldrinksleft ul li a:hover,
+.Alldrinksleft ul li a:active,
+.Alldrinksleft ul li a.active{
+  background-color: white;
+  color: #FF6846;
+  border: 2px dotted #FF6846;
+}
+@media(max-width: 768px){
+  .Alldrinksleft{
+    /* border: 1px solid green; */
+    /* width: 20%; */
+    /* height: 500px; */
+    /* position: sticky; */
+    /* top: 85px; */
+  }
+  .Alldrinksleft ul{
+    /* list-style: none; */
+  }
+  .Alldrinksleft ul li a{
+    /* cursor: pointer; */
+    /* color: white; */
+    /* border: 2px dotted white; */
+    /* background: #FF6846; */
+    font-size: .4rem;
+    padding: 10px 5px;
+
+    /* font-weight: bold; */
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+    /* border: 1px solid red; */
+    /* line-height: 20px */
+  }
+  .Alldrinksleft ul li:hover{
+    /* background: #fff; */
+    /* color: #FF6846; */
+    /* border: 2px dotted #FF6846; */
+  } 
+}
+/* ///////////////////////////// */
+.Alldrinksright{
+  /* border: 1px solid green; */
+  width: 75%;
+}
+@media(max-width: 768px){
+  .Alldrinksright{
+    /* border: 1px solid green; */
+    width: 78%;
+  }
+}

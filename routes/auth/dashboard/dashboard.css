@@ -1,0 +1,78 @@
+.Dashboard{
+  margin: 90px auto;
+  width: 80%;
+ }
+ .Dashboard h1{
+   font-size: 2rem;
+ }
+ .Dashboard h3{
+   font-size: 1rem;
+ }
+ .Dashboard tr{
+   /* border: 5px solid blue; */
+   width: 100%;
+ }
+ 
+ .Dashboard td{
+   font-size: 0.8rem;
+ }
+ .Dashboard td img{
+   width: 100%;
+   height: 50%;
+ }
+ .Dashboard th{
+   width: 25%;
+   font-size: 1rem;
+   font-weight: lighter;
+   /* border: 2px solid red; */
+   /* color: red; */
+ }
+ 
+ .Dashaddress{
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .Dashaddress p{
+   margin: 0 0 10px 0;
+   font-size: 1rem;
+   font-weight: bold
+ }
+ .Dashaddress strong{
+   font-size: 1rem;
+ }
+ @media(max-width: 768px){
+   .Dashboard h1{
+     font-size: 1rem;
+   }
+   .Dashboard h3{
+     font-size: 0.6rem;
+   }
+   
+   .Dashboard td{
+     font-size: 0.4rem;
+   }
+ 
+   .Dashboard th{
+     /* width: 25%; */
+     font-size: 0.7rem;
+     /* font-weight: lighter; */
+     /* border: 2px solid red; */
+     /* color: red; */
+   }
+   .Dashboard td img{
+     width: 50%;
+     height: 10%;
+   }
+   
+   /* /////////////////////////////////////// */
+   .Dashaddress p{
+     /* margin: 0 0 10px 0; */
+     font-size: 0.6rem;
+     /* font-weight: bold */
+   }
+   .Dashaddress strong{
+     font-size: 0.5rem
+   }
+ }
+ 

@@ -1,0 +1,139 @@
+.Toolbar{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 56px;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  box-shadow: 0 5px 5px -5px #333;
+
+}
+
+.Toolbarnav {
+  display: flex;
+  height: 100%;
+  padding: 0 1rem;
+ /* justify-content: space-between; */
+ align-items: center; 
+}
+
+.Spacer{
+  flex: 1
+}
+
+.Toolbarlogo{
+  margin-left: 1rem;
+}
+
+.Toolbarlogo a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.Toolbarlogo img{
+  position: fixed;
+  height: 12%;
+  top: 5px;
+  background: white;
+  border: 0.1px solid white;
+  border-radius: 0 0 10px 10px;
+}
+
+.Toolbaritems ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.Toolbaritems li {
+  /* padding: 0 0.5rem; */
+  /* border: 1px solid red; */
+  line-height: 50px;
+  margin: 0 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.Toolbaritems a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bolder;
+  /* border: 1px solid red; */
+  margin: 0 10px;
+}
+.Toolbaritems a:hover,
+.Toolbaritems a:active{
+  color: #FF7252
+}
+
+@media (max-width: 768px){
+  .Toolbaritems{
+    display: none
+  }
+  .Toolbarlogo img{
+    height: 9%;
+    left: 0;
+  }
+
+}
+
+/* ///////////////////////// */
+
+.Dropdown {
+  /* float: left; */
+  overflow: hidden;
+}
+
+.Dropdown .Dropbtn {
+  /* font-size: 16px;   */
+  border: none;
+  outline: none;
+  color: black;
+  /* padding: 14px 16px; */
+  background-color: inherit;
+  /* font-family: inherit; */
+  margin: 0;
+}
+.Dropdown .Dropbtn:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  /* background-color: red; */
+}
+
+.Dropdowncontent {
+  padding: 10px 0;
+  display: none;
+  position: absolute;
+  background-color: rgba(238, 238, 238, 0.7);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  /* margin-top: 5px; */
+}
+
+.Dropdowncontent a {
+  font-family: 'Montserrat', sans-serif;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Dropdowncontent a:hover {
+  /* background-color: #ddd; */
+  background-color: #FF7252;
+  color: white
+}
+
+.Dropdown:hover .Dropdowncontent {
+  display: block;
+}

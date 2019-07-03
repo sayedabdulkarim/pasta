@@ -1,0 +1,85 @@
+.Winemenu{
+  /* border: 1px solid red; */
+}
+
+.Winemenu p{
+  font-size: 0.7rem;
+  font-weight: lighter;
+  /* margin: 10px 0; */
+  line-height: 25px;
+}
+
+.Winemenu .Row{
+  /* border: 1px solid red; */
+  margin: 25px 0;
+  /* width: 80%; */
+  /* margin: 0 auto; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
+.Winemenu .Row ul{
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between
+}
+.Winemenu .Row li{
+  width: 31%;
+  overflow: hidden;
+}
+.Winemenu .Row li img{
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.Winemenu .Row li img:hover{
+  transform: scale(1.1)
+}
+
+
+@media(max-width: 768px){
+  .Winemenu{
+    /* border: 1px solid red; */
+  }
+  
+  .Winemenu p{
+    font-size: 0.5rem;
+    /* font-weight: lighter; */
+    /* margin: 10px 0; */
+    line-height: 15px;
+  }
+  
+  .Winemenu .Row{
+    /* border: 1px solid red; */
+    margin: 25px 0 0 0;
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+  }
+  .Winemenu .Row ul{
+    /* list-style: none; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* display: flex; */
+    flex-direction: column
+    /* justify-content: space-between */
+  }
+  .Winemenu .Row li{
+    width: 100%;
+    margin-top: 10px;
+    /* overflow: hidden; */
+  }
+  .Winemenu .Row li img{
+    /* transition: 0.2s ease-in-out; */
+    /* width: 100%; */
+    /* height: 100%; */
+  }
+  .Winemenu .Row li img:hover{
+    /* transform: scale(1.2) */
+  }
+  
+}

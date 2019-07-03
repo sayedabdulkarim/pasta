@@ -1,0 +1,96 @@
+.Allitems{
+  /* border: 1px solid red; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+@media(max-width: 768px){
+  .Allitems{
+    width: 90%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* margin: 100px auto; */
+  } 
+}
+/* ///////////////////////////// */
+.Allitemsleft{
+  /* border: 1px solid green; */
+  width: 20%;
+  height: 500px;
+  position: sticky;
+  top: 85px;
+}
+.Allitemsleft ul{
+  list-style: none;
+}
+.Allitemsleft ul li {
+  /* border: 1px solid red; */
+  margin: 10px 0;
+}
+.Allitemsleft ul li a{
+  border: 2px dotted white;
+  /* cursor: pointer; */
+  text-decoration: none;
+  color: white;
+  background: #FF6846;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  text-align: center;
+  /* margin-bottom: 10px; */
+  /* border: 1px solid red; */
+  /* line-height: 50px; */
+  padding: 16px 10px;
+  display: block;
+  font-weight: bold
+  /* text-decoration: none; */
+}
+.Allitemsleft ul li a.active,
+.Allitemsleft ul li a:hover,
+.Allitemsleft ul li a:active{
+  background-color: white;
+  color: #FF6846;
+  border: 2px dotted #FF6846;
+}
+
+@media(max-width: 768px){
+  .Allitemsleft{
+    /* border: 1px solid green; */
+    /* width: 20%; */
+    /* height: 500px; */
+    /* position: sticky; */
+    /* top: 85px; */
+  }
+  .Allitemsleft ul{
+    /* list-style: none; */
+  }
+  .Allitemsleft ul li a{
+    /* cursor: pointer; */
+    /* color: white; */
+    /* border: 2px dotted white; */
+    /* background: #FF6846; */
+    font-size: .6rem;
+    padding: 10px 5px;
+    /* font-weight: bold; */
+    /* text-align: center; */
+    /* margin-bottom: 10px; */
+    /* border: 1px solid red; */
+    /* line-height: 20px */
+  }
+  .Allitemsleft ul li:hover{
+    /* background: #fff; */
+    /* color: #FF6846; */
+    /* border: 2px dotted #FF6846; */
+  } 
+}
+/* ///////////////////////////// */
+.Allitemsright{
+  /* border: 1px solid green; */
+  width: 75%;
+}
+@media(max-width: 768px){
+  .Allitemsright{
+    /* border: 1px solid green; */
+    width: 78%;
+  }
+}
